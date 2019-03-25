@@ -1,4 +1,4 @@
-from BanqueCheck.src.bank.AEVerificateur import AEVerificateur
+from BanqueCheck.src.bank.IVerificateur import IVerificateur
 class Banque:
     def __init__(self, Iverifie):
         self.Iverifie = Iverifie
@@ -12,4 +12,5 @@ class Banque:
     # class
     def verification(self, Iverifie):
         self.Iverifie.VerifierCarte()
+
 
